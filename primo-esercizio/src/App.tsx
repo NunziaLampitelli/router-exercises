@@ -5,7 +5,7 @@ import About from "./about";
 import Contact from "./contact";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-const App = () => {
+const App  = () => {
 	return (
 		<Router>
 			<div>
@@ -25,7 +25,7 @@ const App = () => {
 
 				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/about" element={<About />} />
+					<Route path="/about" element= {<About />} />
 					<Route path="/contact" element={<Contact />} />
 				</Routes>
 			</div>
