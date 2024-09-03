@@ -1,9 +1,9 @@
-import { useState } from 'react'
-import './App.css'
-import Home from './home';
-import About from './about';
-import Contact from './contact';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { useState } from "react";
+import "./App.css";
+import Home from "./home";
+import About from "./about";
+import Contact from "./contact";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 const App = () => {
 	return (
